@@ -8,6 +8,7 @@ export PATH=/opt/homebrew/bin:$PATH
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# New window will always use last stable node version installed
 nvm use stable
 
 # Path to your oh-my-zsh installation.
